@@ -1,0 +1,21 @@
+(xlib
+  (standards-version 1.1
+   version VERSION
+   author-version AUTHOR_VERSION
+   date DATE
+   build-date BUILD_DATE
+   maintainer MAINTAINER
+   distribution xemacs
+   priority low
+   category CATEGORY
+   dump nil
+   description "Emacs interface to X server using FFI."
+   filename FILENAME
+   md5sum MD5SUM
+   size SIZE
+   provides (ffi-xlib xlib-common xlib-const xlib-hello xlib-keysymdb
+		 xlib-tray xlib-vidmode xlib-xinerama xlib-xlib xlib-xpm
+		 xlib-xrecord xlib-xshape xlib-xtest)
+   requires (REQUIRES)
+   type regular
+))
